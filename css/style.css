@@ -1,0 +1,131 @@
+body, ul {
+    color: #2a2a2b;
+    font-family: 'Segoe UI Light';
+    line-height: 160%;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+body > * {
+    box-sizing: border-box;
+}
+h2 {
+    font-family: 'Segoe UI Semibold';
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    margin:0;
+    padding: 0;
+    margin-bottom: 8px;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+#wrapAll {
+    background: #ffffff url('../images/fond.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 20px;
+    height: auto;
+}
+.entete {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+nav {
+    width: 100%;
+}
+nav .list {
+    display: flex;
+    float: right;
+    vertical-align: middle;
+    padding-top: 63px;
+}
+nav .list li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+nav .list a {
+    display: inline-block;
+    padding: 30px 5px;
+    text-transform: uppercase;
+}nav .list a:hover {
+    background: white;
+    color: #f9b233;
+    transition: .3s;
+}
+nav .list li.active a {
+     background: white;
+     color: #f9b233;
+}
+#wrapAll .listImg li {
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wrapAll .slide {
+    background: url('../images/imgSlider1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+#wrapAll .contenu {
+    background: white;
+    opacity: .6;
+    margin: 0 auto;
+    width: 69%;
+    padding: 20px 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#wrapAll .contenu h2 {
+    text-align: center;
+}
+#wrapAll .listTypeVoyage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin: 25px 0 0;
+}
+#wrapAll .listTypeVoyage li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+#wrapAll .listTypeVoyage li:first-child {
+    margin-left: 0!important;
+}
+#wrapAll .listTypeVoyage li.lst {
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+#wrapAll .listTypeVoyage .lst div:first-child {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height 300px;
+    width: 100%;
+    height: 270px;
+}
+#wrapAll .listTypeVoyage .lst div:last-child  {
+    background: #f1ebf7;
+    padding: 15px 15px 10px;
+}
+#wrapAll .listTypeVoyage .lst a {
+    color: #2a2a2b;
+    text-transform:  none;
+    font-weight: bold;
+}
